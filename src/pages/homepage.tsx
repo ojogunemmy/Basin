@@ -1,7 +1,8 @@
 import React from "react";
 import Intro from "../components/brandIntro";
 import Introtwo from "../components/brandintrotwo";
-import ValueContent from "../components/value";
+import ValueContent from "../components/values";
+import ServiceContent from "../components/services";
 
 function HomeContent(){
     return(
@@ -9,6 +10,7 @@ function HomeContent(){
         <Intro/>
         <Introtwo/>
         <ValueContent/>
+        <ServiceContent/>
        
         </>
     )

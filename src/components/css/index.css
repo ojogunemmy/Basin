@@ -1,22 +1,13 @@
 
 .intro{
-    height: 92vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.intro-two{
-
-    height: 500px;
-
-}
-
 .intro-body{
-
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,43 +15,13 @@
 
 }
 
-.intro-text{
-    text-align: center;
-    font-size: 62px;
+.text-justify{
+    text-align: justify;
+}
 
-}
-.constraint-text-lg{
-    width: 60%;
-    text-align: center;
-    background-color: bisque;
-}
-.constraint-text-sm{
-    width: 40%;
-    text-align: center;
+.h-400{
+    height: 400px;
 }
 
 
-
-.hide{
-    display: none;
-}
-/* .intro-head{
-
-} */
-
-.height{
-    height: 464px;
-    width: 30%;
-}
-
-.value-one{
-
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    
-
-}
 
