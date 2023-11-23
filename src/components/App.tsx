@@ -4,10 +4,10 @@ import HeaderContent from './common/header';
 import HomeContent from '../pages/homepage';
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container-xl'>
        
     <HeaderContent/>
-
+    
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomeContent/>}></Route>
